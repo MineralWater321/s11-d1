@@ -14,7 +14,7 @@
 
 	<!-- Navbar Section -->
 
-	<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+	<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
 	  <a class="navbar-brand" href="#">Edward Paler</a>
 	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 	    <span class="navbar-toggler-icon"></span>
@@ -23,20 +23,20 @@
 	  	<!--ml-auto - position links to the right hand side of the navbar -->
 	    <ul class="navbar-nav ml-auto"> 
 	      <li class="nav-item active">
-	        <a class="nav-link" href="#">About Me<span class="sr-only">(current)</span></a>
+	        <a class="nav-link" href="#aboutme">About Me<span class="sr-only">(current)</span></a>
 	      </li>
 	      <li class="nav-item">
-	        <a class="nav-link" href="#">Projects</a>
+	        <a class="nav-link" href="#projects">Projects</a>
 	      </li>
 	      <li class="nav-item">
-	        <a class="nav-link" href="#">Tools</a>
+	        <a class="nav-link" href="#contacts">Contact</a>
 	      </li>
 	    </ul>
 	  </div>
 	</nav>
 
 	<!-- Main Content Section -->
-	<div class="container-fluid text-center">
+	<div class="container-fluid text-center mt-5">
 		<div class="row">
 			<!-- Side Navbar Section Start-->
 			<div class="card col-xl-2 d-none d-xl-block p-0">
@@ -112,7 +112,7 @@
 			<div class="col-xl-10 p-0">
 				
 				<!-- Profile Section Start -->
-				<div class="container-fluid bg-dark text-light min-vh-100 p-md-5">
+				<div class="container-fluid bg-dark text-light min-vh-100 p-md-5" id="aboutme">
 				<!-- min-vh-100 class will ensure that regardless of the content the size of each section will at least 100% of the current viewport height-->
 					<img class="mt-5 mt-md-0 rounded-circle" src="https://i.guim.co.uk/img/media/3656ae6ea2209d4561caf04fa9f172a519908ca3/0_28_2318_1391/master/2318.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=afcc355f47876bc495cdc3c902639bae" width="250">
 					<h1>Edward Paler</h1>
@@ -176,7 +176,141 @@
 					<!-- Carousel Section End -->
 				</div>
 				<!-- Profile Section End -->
+
+				<!-- Other Projects Section Start -->
+				<div class="bg-secondary text-light min-vh-100 p-5" id="projects">
+					<h2 class="mb-3">Other Projects</h2>
+
+					<!-- Other Projects Container Start -->
+					<div class="d-lg-flex justify-content-center p-md-5">
+						<!-- HTML Card Start -->
+						<div class="card bg-dark col-xl-4 mb-5 mb-xl-0">
+						  <div class="card-body">
+						    <img src="https://3.bp.blogspot.com/-7x5c_f1yzsQ/XHv9FZKHrEI/AAAAAAAADrE/4iGl9Lm6K2odX4SdWbU_RN6gZesx4IaGACEwYBhgL/s1600/html.jpg" class="card-img-top">
+						    <h5 class="card-title mt-3">HTML</h5>
+						    <h6 class="card-subtitle txt-muted mb-2">Programming Basics</h6>
+						    <p class="card-text">
+						    	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						    	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						    	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						    	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						    	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						    	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+						    </p>
+						    <a href="" class="card-link">Link to Project</a>
+						  </div>
+						</div>
+						<!-- HTML Card End -->
+
+						<!-- Bootstrap Card Start -->
+						<div class="card bg-dark col-xl-4 mb-5 mb-xl-0 mr-xl-5 ml-xl-5">
+						  <div class="card-body">
+						    <img src="https://i2.wp.com/phpmagazine.net/wp-content/uploads/2021/01/20210120_095111.jpg?resize=696%2C348&ssl=1" class="card-img-top">
+						    <h5 class="card-title mt-3">Bootstrap</h5>
+						    <h6 class="card-subtitle txt-muted mb-2">Rapid Prototyping</h6>
+						    <p class="card-text">
+						    	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						    	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						    	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						    	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						    	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						    	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+						    </p>
+						    <a href="" class="card-link">Link to Project</a>
+						  </div>
+						</div>
+						<!-- Bootstrap Card End -->
+
+						<!-- NodeJS Server Card Start -->
+						<div class="card bg-dark col-xl-4 mb-5 mb-xl-0">
+						  <div class="card-body">
+						    <img src="https://clever-solution.com/wp-content/uploads/2020/04/5625%D0%9C%D0%BE%D0%BD%D1%82%D0%B0%D0%B6%D0%BD%D0%B0%D1%8F-%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C-1-1280x720.png" class="card-img-top">
+						    <h5 class="card-title mt-3">NodeJS</h5>
+						    <h6 class="card-subtitle txt-muted mb-2">Backend Basics</h6>
+						    <p class="card-text">
+						    	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						    	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						    	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						    	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						    	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						    	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+						    </p>
+						    <a href="" class="card-link">Link to Project</a>
+						  </div>
+						</div>
+						<!-- NodeJS Server Card End -->
+					</div>
+					<!-- Other Projects Container End -->
+				</div>
+				<!-- Other Projects Section End -->
 				
+				<!-- Contact Me Start -->
+				<div class="container-fluid bg-dark text-light min-vh-100 p-md-5" id="contacts">
+					<div class="row justify-content-center">
+						<div class="col-12 col-md-8 col-xl-4">
+							<h2 class="mb-3">Contact Me</h2>
+
+							<form class="bg-primary p-5">
+							  <div class="form-group">
+							      <label for="formName">Name</label>
+							      <input type="text" class="form-control" id="formName" placeholder="Your Name">
+							   </div>
+
+							  <div class="form-group">
+							    <label for="formEmail">Email address</label>
+							    <input type="email" class="form-control" id="formEmail" placeholder="name@example.com">
+							  </div>
+
+							   <div class="form-group">
+							      <label for="formContact">Contact Number</label>
+							      <input type="number" class="form-control" id="formContact" placeholder="+63 900 000 0000">
+							   </div>
+
+							   <div class="form-group">
+							       <label for="formConcern">Concern</label>
+							       <select class="form-control" id="formConcern">
+							         <option>Quotation</option>
+							         <option>Appointment</option>
+							         <option>Follow-up</option>
+							       </select>
+							     </div>					  
+
+							  <div class="form-group">
+							    <label for="formMessage">Message</label>
+							    <textarea class="form-control" id="formMessage" rows="3"></textarea>
+							  </div>
+
+							  <!-- Button trigger modal -->
+							  <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#sendEmail">
+							    Send Email
+							  </button>
+
+							  <!-- Modal -->
+							  <div class="modal fade text-dark" id="sendEmail" tabindex="-1" aria-labelledby="thanks" aria-hidden="true">
+							    <div class="modal-dialog">
+							      <div class="modal-content">
+							        <div class="modal-header">
+							          <h5 class="modal-title" id="thanks">Thank you for contacting us!</h5>
+							          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							            <span aria-hidden="true">&times;</span>
+							          </button>
+							        </div>
+							        <div class="modal-body">
+							          Message Successfully Sent
+							        </div>
+							        <div class="modal-footer">
+							          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+							        </div>
+							      </div>
+							    </div>
+							  </div>		
+							</form>					
+						</div>
+						
+					</div>
+									
+				</div>
+				<!-- Contact Me Start -->
 			</div>
 			<!-- Side Content Section End -->
 		</div>		
